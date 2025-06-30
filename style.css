@@ -1,0 +1,20 @@
+html,
+header {
+  background-image: url("https://cdn.glitch.global/63c872e5-8f6b-4b1a-b13d-3bd869977d11/notebook_background.png?v=1729196634939");
+  background-repeat: no-repeat;
+  background-size: 1000px;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+button {
+  border: none;
+  padding: 5px;
+  font-family: "Special Elite";
+  background: #dedad1;
+}

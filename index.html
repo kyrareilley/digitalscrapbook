@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+    </style>
+  </head>
+  <body>
+    <main></main>
+
+    <img
+      id="book"
+      src="https://cdn.glitch.global/2954acae-949a-4370-ac7a-9173c3257791/book.png?v=1729287912597"
+      width="250"
+      style="position: fixed; left: 505px; top: 250px"
+    />
+    <img
+      id="asterisk"
+      src="https://cdn.glitch.global/2954acae-949a-4370-ac7a-9173c3257791/asterik.png?v=1729290313116"
+      width="150"
+      style="position: fixed; left: 550px; top: 50px"
+    />
+
+    <img
+      id="receipt"
+      src="https://cdn.glitch.global/2954acae-949a-4370-ac7a-9173c3257791/receipt.png?v=1729300707185"
+      width="250"
+      style="position: fixed; left: 240px; top: 310px"
+    />
+
+    <img
+      id="punchcard"
+      src="https://cdn.glitch.global/63c872e5-8f6b-4b1a-b13d-3bd869977d11/punchcard.png?v=1729261558223"
+      width="250"
+      style="position: fixed; left: 170px; top: 160px"
+    />
+    <img
+      id="anora"
+      src="https://cdn.glitch.global/63c872e5-8f6b-4b1a-b13d-3bd869977d11/anora.png?v=1729258051248"
+      width="150"
+      style="position: fixed; left: 50px; top: 60px"
+    />
+    <img
+      id="orange"
+      src="https://cdn.glitch.global/2954acae-949a-4370-ac7a-9173c3257791/orange.png?v=1729266871048"
+      width="250"
+      style="position: fixed; left: 650px; top: 120px"
+    />
+    <img
+      id="vase"
+      src="https://cdn.glitch.global/2954acae-949a-4370-ac7a-9173c3257791/vase.png?v=1729299801649"
+      width="200"
+      style="position: fixed; left: 20px; top: 150px"
+    />
+    <img
+      id="instructions"
+      src="https://cdn.glitch.global/653f3a9b-4749-41de-9db1-459f639b3c37/information.png?v=1732513677227"
+      width="200"
+      style="position: fixed; left: 20px; top: 440px"
+    />
+
+    <div id="container">
+      <div id="card"></div>
+    </div>
+
+    <button
+      id="starButton"
+      type="button"
+      style="position: absolute; left: 10px; top: 660px"
+    >
+      Star
+    </button>
+    <button
+      id="tapeButton"
+      type="button"
+      style="position: absolute; left: 60px; top: 660px"
+    >
+      Tape
+    </button>
+    <script src="sketch.js"></script>
+  </body>
+</html>
