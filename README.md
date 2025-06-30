@@ -1,2 +1,3 @@
-This is a basic chat application using p5.js.
+My digital scrapbook encourages users to explore scrapbooking in a less permanent way, while being able to collaborate with users on the same website. As someone who scrapbooks, keeps a journal with me at all time, and works with a lot of physical documentation of life, I was inspired to weave my personal hobbies into my coding work. The main functions of my project include dragging images around to the desired location on the page, and generating randomly placed stamps like stars and grid tape. While I have pre-loaded images for my project, I would hope for users to be able to upload their own photos, memories, and scraps of life to keep in a digital notebook that highlights the thread of life between us. 
 
+Thanks to Aidan Nelson for guidance and help. 
