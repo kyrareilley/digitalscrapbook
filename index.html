@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+    </style>
+  </head>
+  <body>
+    <main></main>
+
+    <img
+      id="book"
+      src="assets/book.png"
+      width="250"
+      style="position: fixed; left: 505px; top: 250px"
+    />
+    <img
+      id="asterisk"
+      src="assets/asteriks.png"
+      width="150"
+      style="position: fixed; left: 550px; top: 50px"
+    />
+
+    <img
+      id="receipt"
+      src="assets/receipt.png"
+      width="250"
+      style="position: fixed; left: 240px; top: 310px"
+    />
+
+    <img
+      id="punchcard"
+      src="assets/punchcard.png"
+      width="250"
+      style="position: fixed; left: 170px; top: 160px"
+    />
+    <img
+      id="anora"
+      src="assets/anora.png"
+      width="150"
+      style="position: fixed; left: 50px; top: 60px"
+    />
+    <img
+      id="orange"
+      src="assets/orangevines.png"
+      width="250"
+      style="position: fixed; left: 650px; top: 120px"
+    />
+    <img
+      id="vase"
+      src="assets/vase.png"
+      width="200"
+      style="position: fixed; left: 20px; top: 150px"
+    />
+    <img
+      id="instructions"
+      src="assets/information.png"
+      width="200"
+      style="position: fixed; left: 20px; top: 440px"
+    />
+
+    <div id="container">
+      <div id="card"></div>
+    </div>
+
+    <button
+      id="starButton"
+      type="button"
+      style="position: absolute; left: 10px; top: 660px"
+    >
+      Star
+    </button>
+    <button
+      id="tapeButton"
+      type="button"
+      style="position: absolute; left: 60px; top: 660px"
+    >
+      Tape
+    </button>
+    <script src="sketch.js"></script>
+  </body>
+</html>
